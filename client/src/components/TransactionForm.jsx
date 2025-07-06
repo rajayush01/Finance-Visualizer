@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { createTransaction, updateTransaction } from '../utils/api';
-import { Plus, DollarSign, Calendar } from 'lucide-react';
+import { Plus, IndianRupee, Calendar } from 'lucide-react';
 
 const categories = ['Food', 'Transport', 'Rent', 'Utilities', 'Entertainment', 'Misc'];
 
@@ -67,7 +67,7 @@ const TransactionForm = ({ setTransactions, editingTransaction, setEditingTransa
 
       <form onSubmit={handleSubmit} className="grid grid-cols-1 md:grid-cols-5 gap-4">
         <div className="relative">
-          <DollarSign className="absolute left-3 top-3 h-5 w-5 text-gray-400" />
+          <IndianRupee className="absolute left-3 top-3 h-5 w-5 text-gray-400" />
           <input 
             type="number" 
             placeholder="Amount" 

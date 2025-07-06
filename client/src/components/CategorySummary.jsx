@@ -20,6 +20,7 @@ const CategorySummary = ({ transactions }) => {
           Category Breakdown
         </h2>
       </div>
+
       <ResponsiveContainer width="100%" height={300}>
         <PieChart>
           <Pie 
@@ -45,6 +46,19 @@ const CategorySummary = ({ transactions }) => {
           />
         </PieChart>
       </ResponsiveContainer>
+
+      {/* Custom color legend */}
+      <div className="mt-6 grid grid-cols-2 sm:grid-cols-3 gap-4">
+        {chartData.map((entry, index) => (
+          <div key={index} className="flex items-center space-x-3">
+            <div 
+              className="w-4 h-4 rounded-full" 
+              style={{ backgroundColor: COLORS[index % COLORS.length] }}
+            />
+            <span className="text-sm text-gray-700 font-medium">{entry.name}</span>
+          </div>
+        ))}
+      </div>
     </div>
   );
 };

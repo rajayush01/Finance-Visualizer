@@ -75,9 +75,9 @@ const App = () => {
       
       <div className="max-w-7xl mx-auto relative z-10">
         <div className="text-center mb-8">
-          <h1 className="text-5xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-blue-600 bg-clip-text text-transparent mb-2">
-            Personal Finance Visualizer
-          </h1>
+          <h1 className="text-6xl font-extrabold tracking-tight text-center bg-gradient-to-br from-black via-blue-500 to-black bg-clip-text text-transparent drop-shadow-md mb-4">
+  Personal Finance Visualizer
+</h1>
           <p className="text-gray-600 text-lg">Track, analyze, and optimize your financial journey</p>
         </div>
         

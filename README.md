@@ -1,5 +1,5 @@
 # Finance-Visualizer
-A beautiful, intuitive web app to track, analyze, and optimize your financial life. Built with React.js, Tailwind CSS, Express.js, MongoDB and Node.js, it allows you to manage transactions, visualize spending trends, and monitor budgets effortlessly.
+A beautiful, intuitive web app to track, analyze, and optimize your financial life. Built with React.js, Tailwind CSS, Express.js, MongoDB, and Node.js, it allows you to manage transactions, visualize spending trends, and monitor budgets effortlessly.
 
 ## Installation
 
